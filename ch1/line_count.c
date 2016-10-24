@@ -5,7 +5,7 @@ main() {
   int c, nl;
 
   nl = 0;
-  while ((c = getchar()), != EOF)
+  while ((c = getchar()) != EOF)
     /* '\n' is a character constant, i.e. the
     integer representation of the ASCI character
     for new-line */
